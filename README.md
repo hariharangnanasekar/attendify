@@ -2,6 +2,10 @@
 
 A full-stack web application for tracking employee attendance with role-based access control for employees and managers.
 
+## attendify-screenshot
+
+![image alt](https://github.com/hariharangnanasekar/attendify/blob/master/attendify_screenshots/Screenshot_30-11-2025_75723_localhost.jpeg)
+
 ## Tech Stack
 
 - **Frontend**: React, Redux Toolkit, Tailwind CSS, Vite
