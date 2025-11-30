@@ -68,6 +68,14 @@ Attendify/
 - MongoDB (local or MongoDB Atlas)
 - npm or yarn
 
+## 📥 Installation & Setup
+
+### Clone the Repository
+
+git clone https://github.com/hariharangnanasekar/attendify.git
+cd Attendify
+
+
 ### Backend Setup
 
 1. Navigate to the backend directory:
@@ -228,4 +236,12 @@ This project is open source and available under the MIT License.
 ## Support
 
 For issues or questions, please open an issue on the GitHub repository.
+
+## Developer
+
+Hariharan G
+Indra Ganesan College of Engineering
+9384175575
+
+
 
