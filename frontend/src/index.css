@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-blue text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-blue-700 hover:shadow-md active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply bg-primary-teal text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-teal-600 hover:shadow-md active:scale-95;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary-blue text-primary-blue px-6 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-primary-blue hover:text-white active:scale-95;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue focus:border-transparent transition-all duration-300;
+  }
+  
+  .status-badge {
+    @apply px-3 py-1 rounded-full text-sm font-medium;
+  }
+  
+  .status-present {
+    @apply bg-green-100 text-green-800;
+  }
+  
+  .status-absent {
+    @apply bg-red-100 text-red-800;
+  }
+  
+  .status-late {
+    @apply bg-yellow-100 text-yellow-800;
+  }
+  
+  .status-halfDay {
+    @apply bg-orange-100 text-orange-800;
+  }
+}
+
+/* React Calendar Custom Styles */
+.react-calendar {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.react-calendar__tile {
+  padding: 0.75em 0.5em;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.react-calendar__tile:hover {
+  background-color: #e5e7eb;
+}
+
+.react-calendar__tile--active {
+  background-color: #1D4ED8;
+  color: white;
+}
+
+.react-calendar__tile--active:hover {
+  background-color: #1e40af;
+}
+
+.react-calendar__tile--now {
+  background-color: #dbeafe;
+}
+
+.attendance-day {
+  position: relative;
+}
+
+.attendance-day:hover {
+  background-color: #f3f4f6;
+}
+
