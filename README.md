@@ -2,9 +2,11 @@
 
 A full-stack web application for tracking employee attendance with role-based access control for employees and managers.
 
-## attendify-screenshot
+## Attendify-screenshot
 
 ![image alt](https://github.com/hariharangnanasekar/attendify/blob/master/attendify_screenshots/Screenshot_30-11-2025_75723_localhost.jpeg)
+![image alt](https://github.com/hariharangnanasekar/attendify/blob/837cea3d5a8e1dc3e197b6a87afccc43eedff05f/attendify_screenshots/Screenshot_30-11-2025_75911_localhost.jpeg)
+![image alt](https://github.com/hariharangnanasekar/attendify/blob/837cea3d5a8e1dc3e197b6a87afccc43eedff05f/attendify_screenshots/Screenshot%20(18).png)
 
 ## Tech Stack
 
