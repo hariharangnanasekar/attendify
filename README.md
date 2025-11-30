@@ -2,6 +2,12 @@
 
 A full-stack web application for tracking employee attendance with role-based access control for employees and managers.
 
+## Attendify-screenshot
+
+![image alt](https://github.com/hariharangnanasekar/attendify/blob/master/attendify_screenshots/Screenshot_30-11-2025_75723_localhost.jpeg)
+![image alt](https://github.com/hariharangnanasekar/attendify/blob/837cea3d5a8e1dc3e197b6a87afccc43eedff05f/attendify_screenshots/Screenshot_30-11-2025_75911_localhost.jpeg)
+![image alt](https://github.com/hariharangnanasekar/attendify/blob/837cea3d5a8e1dc3e197b6a87afccc43eedff05f/attendify_screenshots/Screenshot%20(18).png)
+
 ## Tech Stack
 
 - **Frontend**: React, Redux Toolkit, Tailwind CSS, Vite
@@ -75,7 +81,7 @@ npm install
 3. Create a `.env` file in the backend directory:
 ```env
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/attendify
+MONGODB_URI=mongodb_cloud_string
 JWT_SECRET=your_jwt_secret_key_change_in_production
 NODE_ENV=development
 ```
@@ -136,24 +142,6 @@ The frontend will be available at `http://localhost:3000`
 - `POST /api/auth/login` - Login user
 - `GET /api/auth/me` - Get current user profile
 
-### Attendance (Employee)
-- `POST /api/attendance/checkin` - Check in
-- `POST /api/attendance/checkout` - Check out
-- `GET /api/attendance/my-history` - Get attendance history
-- `GET /api/attendance/my-summary` - Get monthly summary
-- `GET /api/attendance/today` - Get today's status
-
-### Attendance (Manager)
-- `GET /api/attendance/all` - Get all employees' attendance
-- `GET /api/attendance/employee/:id` - Get specific employee attendance
-- `GET /api/attendance/summary` - Get team summary
-- `GET /api/attendance/export` - Export CSV
-- `GET /api/attendance/today-status` - Get today's status for all employees
-
-### Dashboard
-- `GET /api/dashboard/employee` - Employee dashboard stats
-- `GET /api/dashboard/manager` - Manager dashboard stats
-
 ## Seed Data
 
 The seed script creates:
@@ -211,16 +199,6 @@ cd frontend
 npm run dev
 ```
 
-### Building for Production
-
-**Frontend:**
-```bash
-cd frontend
-npm run build
-```
-
-The build output will be in the `frontend/dist` directory.
-
 ## Database Schema
 
 ### User Model
@@ -240,15 +218,6 @@ The build output will be in the `frontend/dist` directory.
 - `status` - Attendance status (present/absent/late/half-day)
 - `totalHours` - Total hours worked
 - `createdAt` - Record creation date
-
-## Color Scheme
-
-- Primary Blue: `#1D4ED8`
-- Primary Teal: `#14B8A6`
-- Present: `#22C55E` (Green)
-- Absent: `#EF4444` (Red)
-- Late: `#FACC15` (Yellow)
-- Half Day: `#F97316` (Orange)
 
 ## License
 
