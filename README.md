@@ -10,6 +10,10 @@ A full-stack web application for tracking employee attendance with role-based ac
 ![image alt](https://github.com/hariharangnanasekar/attendify/blob/837cea3d5a8e1dc3e197b6a87afccc43eedff05f/attendify_screenshots/Screenshot_30-11-2025_75911_localhost.jpeg)
 ![image alt](https://github.com/hariharangnanasekar/attendify/blob/837cea3d5a8e1dc3e197b6a87afccc43eedff05f/attendify_screenshots/Screenshot%20(18).png)
 
+## App Preview Link
+https://attendify-frontend-tcci.onrender.com/
+
+
 ## Tech Stack
 
 - **Frontend**: React, Redux Toolkit, Tailwind CSS, Vite
