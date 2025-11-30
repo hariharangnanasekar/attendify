@@ -5,6 +5,8 @@ A full-stack web application for tracking employee attendance with role-based ac
 ## Attendify-screenshot
 
 ![image alt](https://github.com/hariharangnanasekar/attendify/blob/master/attendify_screenshots/Screenshot_30-11-2025_75723_localhost.jpeg)
+![image_alt](https://github.com/hariharangnanasekar/attendify/blob/c3eeb2d30c9eaa16432da76f9ed1d0924c9d6b49/attendify_screenshots/Screenshot_30-11-2025_75528_localhost.jpeg)
+![image_alt](https://github.com/hariharangnanasekar/attendify/blob/master/attendify_screenshots/Screenshot%20(17).png)
 ![image alt](https://github.com/hariharangnanasekar/attendify/blob/837cea3d5a8e1dc3e197b6a87afccc43eedff05f/attendify_screenshots/Screenshot_30-11-2025_75911_localhost.jpeg)
 ![image alt](https://github.com/hariharangnanasekar/attendify/blob/837cea3d5a8e1dc3e197b6a87afccc43eedff05f/attendify_screenshots/Screenshot%20(18).png)
 
