@@ -241,15 +241,6 @@ The build output will be in the `frontend/dist` directory.
 - `totalHours` - Total hours worked
 - `createdAt` - Record creation date
 
-## Color Scheme
-
-- Primary Blue: `#1D4ED8`
-- Primary Teal: `#14B8A6`
-- Present: `#22C55E` (Green)
-- Absent: `#EF4444` (Red)
-- Late: `#FACC15` (Yellow)
-- Half Day: `#F97316` (Orange)
-
 ## License
 
 This project is open source and available under the MIT License.
