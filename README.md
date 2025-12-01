@@ -13,7 +13,23 @@ A full-stack web application for tracking employee attendance with role-based ac
 ## App Preview Link
 https://attendify-frontend-tcci.onrender.com/
 
+## Seed Data
 
+The seed script creates:
+- 2 managers
+- 5 employees
+- 30 days of sample attendance data
+
+**Test Credentials:**
+
+Manager:
+- Email: `manager@attendify.com`
+- Password: `manager123`
+
+Employee:
+- Email: `alice@attendify.com`
+- Password: `employee123`
+  
 ## Tech Stack
 
 - **Frontend**: React, Redux Toolkit, Tailwind CSS, Vite
@@ -156,23 +172,6 @@ The frontend will be available at `http://localhost:3000`
 - `POST /api/auth/login` - Login user
 - `GET /api/auth/me` - Get current user profile
 
-## Seed Data
-
-The seed script creates:
-- 2 managers
-- 5 employees
-- 30 days of sample attendance data
-
-**Test Credentials:**
-
-Manager:
-- Email: `manager@attendify.com`
-- Password: `manager123`
-
-Employee:
-- Email: `alice@attendify.com`
-- Password: `employee123`
-
 ## Usage
 
 1. **Employee Registration/Login**
@@ -243,9 +242,9 @@ For issues or questions, please open an issue on the GitHub repository.
 
 ## Developer
 
-Hariharan G
-Indra Ganesan College of Engineering
-9384175575
+- Hariharan G
+- Indra Ganesan College of Engineering
+- 9384175575
 
 
 
